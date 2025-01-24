@@ -3,11 +3,15 @@
     flex-wrap: wrap;
 }
 body {
-    
+    background-color: #96ac99;
+    color: #292825;
+    flex-wrap: wrap;
+    margin-left: 24px;
+    margin-right: 24px;
 }
 .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding-left: 32px;
     padding-right: 32px;
     margin-top: 16px;
@@ -18,19 +22,31 @@ body {
 .profile-picture {
     height: 500px;
     width: 500px;
-    border-radius: 2%;
+    border-radius: 100%;
+}
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    flex-wrap: wrap;
 }
 .intro h1 {
     font-size: 72px;
     text-align: bottom;
     font-style: italic;
     line-height: 0%;
+    margin-bottom: 24px;
+    text-wrap: wrap;
+}
+.intro h3 {
+    margin-bottom: 16px;
 }
 .about-me {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 48px;
+    margin-top: 48px;
 }
 .about-me h3 {
     text-align: center;
@@ -44,17 +60,33 @@ body {
     text-align: left;
     flex: 1;
     height: auto;
-    border: solid;
     padding: 24px;
     border-radius: 4%;
 }
+.i-am, .i-like, .footer {
+    background-color: rgb(6, 6, 10);
+    color: #b6b6b6;
+}
+.about-i-like {
+    padding-left: 16px;
+    margin: 0;
+}
 .i-am p {
     line-height: 24px;
+    margin-bottom: 10px;
 }
-.about-list{
-    list-style: none;
-    /* margin: 0;
-    padding: 0; */
-    /* padding-left: 4px; */
-    line-height: 16px;
+p {
+    margin-bottom: 4px;
+}
+.input-form {
+    display: flex;
+    align-items: baseline;
+    gap: 24px;
+    
+    margin-bottom: 16px;
+}
+.footer {
+    text-align: center;  
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
