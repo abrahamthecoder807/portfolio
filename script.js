@@ -1,4 +1,3 @@
-alert('page not found');
 function emailValidate(email) {
   if(email.includes('@')) {
     return true;
