@@ -14,7 +14,7 @@
         <div class="intro">
             <h1>Howdy, I'm Rarecoder</h1>
             <h3>Software Engineer | Ux/Ui designer</h3>
-            <p class="quote">Bringing ideas to reality.</p>
+            <p class="text">"I'm a Software Engineer with expertise in C, Python, JavaScript, Rust. I build scalable,<br> user-friendly applications using robust testing and collaborative design.<br> I'm passionate about creating innovative solutions and continuously learning."</p>
         </div>
         <div class="intro-img">
             <img class="profile-picture" src="images/profile-picture.jpg">
@@ -45,10 +45,10 @@
     <section class="projects">
         <h3 class="project-heading">Projects</h3>
         <div class="project-grid">
-            <img class="project-image" src="images/project-1.jpg">
-            <img class="project-image" src="images/project-2.jpg">
-            <img class="project-image" src="images/project-3.jpg">
-            <img class="project-image" src="images/project-4.jpg">
+            <div class="projects-list"></div>
+            <div class="projects-list"></div>
+            <div class="projects-list"></div>
+            <div class="projects-list"></div>
         </div>
     </section>
     <div class="links-and-contact">
@@ -69,21 +69,13 @@
                 </li>
             </ul>
         </div>
-        <div>
-            <form class="input-form" action="#">
-                <label for="email">
-                    <h4>Email</h4>
-                    Email: <input type="email" id="email" placeholder="Enter your email" />
-                </label>
-                <label for="message">
-                    <h4>Messages</h4>
-                    Message: <textarea id="message">Your message</textarea>
-                </label>
-                <div class="submit-button-wrapper">
-                    <input type="submit" value="Send Message" id="submit-button" />
-                </div>
-            </form>
-        </div>
+        <form class="form">
+            <div class="title">Contact me</div>
+            <input type="text" placeholder="Your email" class="input">
+            <textarea placeholder="Your message"></textarea>
+                
+            <button>Submit</button>
+        </form>
     </div>
     <div class="footer">
         <nav>
